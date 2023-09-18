@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.calculator{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 100px;
+    margin: 20px;
+    background: transparent;
+}
+
+input{
+    width: 300px;
+    padding: 20px;
+    margin:10px;
+    border: none;
+    text-align: right;
+    background: transparent;
+    cursor: pointer;
+}
+
+butten{
+    height: 1000px;
+    width: 1000px;
+    margin: 5px;
+    border-radius: 3000%;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#inputBox{
+    color: white;
+    font-size: 20px;
+}
+
+.equalBtn{
+    background-color: green;
+}
+
+.oprator{
+    color: green;
+}
+
+.calculator{
+    padding: 20px;
+}
+
+input::placeholder{
+    color: white;
+}

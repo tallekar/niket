@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> HTML FORM Demo </title>
+</head>
+<body>
+	<Center>
+<h1> Government College Of Enginnering,Ratnagiri</h1>
+<h2>Registration Form </h2>
+</Center>
+<form>
+<fieldset>
+<legend> Student Details </legend>
+<table bgcolor="yellow" align="center">
+<tr>
+	<td  colspan="2" align="center"><h1> Student Registration Form</h1> </td>
+</tr>
+<tr>
+	<td> <label for="first">First Name:</label> </td>
+	<td> <input type="text" id="first" name="first" value="Enter First Name"></td>
+</tr>
+<tr>
+	<td> <label for="last">Last Name:</label> </td>
+	<td><input type="text" id="first" name="first"> </td>
+</tr>
+<tr>
+	<td><label for="pass">Enter Password:</label> </td>
+	<td><input type="password" id="pass" name="pass"> </td>
+</tr>
+<tr>
+	<td><label for="pass">Gender:</label> </td>
+	<td> 
+		<label>Male <input type="radio" name="gender" value="male"></label>
+		<label>Female <input type="radio" name="gender" value="female"></label>
+	</td>
+</tr>
+<tr>
+	<td> <label>Select your Course </label> </td>
+	<td> 
+		<input type="checkbox" id="web" name="web" value="web">
+		<label for="web">Web Designing</label><br>
+		<input type="checkbox" id="java" name="java" value="java">
+		<label for="java">Advance Java</label><br>
+		<input type="checkbox" id="script" name="script" value="script">
+		<label for="script">Scripting</label><br>
+	</td>
+</tr>
+<tr>
+	<td> <label for="birthday"> Enter your Date of Birth </label></td>
+	<td> <input type="date" id="birthday" name="birthday"> </td>
+</tr>
+<tr>
+	<td> <label for="email">Enter your email:</label> </td>
+	<td> <input type="email" id="email" name="email"> </td>
+</tr>
+<tr> 
+	<td> <label> Upload your ID Proof: </label>
+	<td> <input type="file" id="myfile" name="myfile"> </td>
+</tr>
+<tr>
+	<td>Define your Programming Level:<br>
+		<label for="vol">Beginner-0 to Expert-5 :</label>
+	</td>
+	<td><input type="range" id="vol" name="vol" min="0" max="5"></td>
+</tr>
+<tr>
+	<td> <h3>Course Joining Date & Time: </h3>
+	<label for="datetime">Joining Date and Time:</label>
+	</td>
+	<td> <input type="datetime-local" id="datetime" name="datetime"></td>
+</tr>
+<tr>
+	<td colspan="2" align="center">
+		<input type="Button" onclick="alert('Data Saved!')" value="SAVE">
+		<input type="reset" value="Reset">
+		<input type="submit" value="Register">
+	</td>
+</tr>
+</table>
+</fieldset>
+</form>
+
+</body>
+</html>

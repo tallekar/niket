@@ -1,0 +1,93 @@
+tp{
+	
+	background-repeat:no-repeat;
+    margin-right:100px;
+	background-position:left right;	
+    background-origin:border-box;
+	padding-bottom:00px;
+	background-size:1800px 330px ;
+	position:relative;
+	margin:0px;
+	margin-right:0px;
+    width:1500px;
+}
+
+.in{
+	
+	padding-left:600px;
+    text-align: center;
+	padding-bottom:0px;
+}
+
+
+
+.on{
+ text-align:center;
+ font-size:50;
+ font-style:italic;
+ margin-top:0px;
+ color:peru;
+ text-shadow:1px 1px 2px purple,0 0 25px cyan,0 0 3px purple;
+ 
+ 
+ }
+ 
+ 
+ 
+ .shru{
+	 font-size:30;
+	 color:maroon;
+ 
+ }
+ 
+ .menu-bar{
+	background-color:wheat;
+	text-align:center;
+	width:fit-content;
+	margin-right:0px;
+	padding-right:130px;
+	margin-left:00px;
+	padding-left:0px;
+	margin-top:5px;
+	margin-bottom:100px;
+	border-style:solid;
+	border-color:purple;
+	border-bottom-width:10px;
+	border-left-width:10px;
+	border-right-width:10px;
+	border-top-width:10px;
+	font-size:20px;
+	padding-top:2px;
+	padding-bottom:5px;
+	border-width:7px;
+	margin-right:0px;
+}
+ 
+.menu-bar ul{
+    color:none;
+    list-style:none;
+    display: inline-flex;
+}	
+
+.menu-bar ul li{
+	width:180px;
+	margin:10px;
+	padding:10px;
+}
+
+.menu-bar ul li a{
+	text-decoration:none;
+	color:black;
+
+}
+
+.active, .menu-bar ul li:hover{
+	background-color:yellow;
+    
+}
+
+.sub-menu1{
+    display:none;
+	border-style:solid;
+	border-color:purple;
+}
